@@ -1,0 +1,61 @@
+#I'm going to put a stop on this compiler:-
+
+#I've now put in calls to other functions
+#but missed difficult things like passing varibles to
+#non-lib functions and local variables:-
+
+#creating other external functions will be easy -
+#but local vars and the like will take a
+#lot more of my time.
+
+#For something which is going to be produced
+#by a `App Wizard` I think the syntax of this language has
+#gone far enough.
+#Below is code which shows how internal functions called.
+# John.
+
+# Example Code
+
+main()
+{
+        (int,int,int) x ;
+        (int int int) y ;
+        (int int int) z ;
+
+        int a ;
+        int b ;
+        z=x+y ;
+
+        if (a == b)
+        {
+                zippy() ;
+        }
+
+
+}
+
+zippy()
+{
+        getroute(@rte) ;
+        switch(rte)
+        {
+                case 4:
+                case 0:
+                        taker(1) ;
+                        break ;
+
+                case 1:
+                        if (randg(200))
+                        {
+                                taker(0) ;
+
+                        } else
+                        {
+                                taker(4) ;
+                        }
+                        break ;
+
+        }
+
+
+}
